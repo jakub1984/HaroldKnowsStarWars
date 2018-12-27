@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F886E1FB21D3B94200C61E39 /* HomeworldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FA21D3B94200C61E39 /* HomeworldVC.swift */; };
+		F886E1FD21D3B95600C61E39 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */; };
+		F886E1FF21D3B96200C61E39 /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FE21D3B96200C61E39 /* FilmsVC.swift */; };
+		F886E20121D3B98B00C61E39 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20021D3B98B00C61E39 /* VehiclesVC.swift */; };
 		F8FDCD6521BFAF0000B1171F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD6421BFAF0000B1171F /* AppDelegate.swift */; };
-		F8FDCD6721BFAF0000B1171F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD6621BFAF0000B1171F /* ViewController.swift */; };
+		F8FDCD6721BFAF0000B1171F /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD6621BFAF0000B1171F /* SelectPersonVC.swift */; };
 		F8FDCD6A21BFAF0000B1171F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FDCD6821BFAF0000B1171F /* Main.storyboard */; };
 		F8FDCD6C21BFAF0200B1171F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FDCD6B21BFAF0200B1171F /* Assets.xcassets */; };
 		F8FDCD6F21BFAF0200B1171F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FDCD6D21BFAF0200B1171F /* LaunchScreen.storyboard */; };
+		F8FDCD7F21BFB1F300B1171F /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8FDCD7C21BFB1F200B1171F /* Starjedi.ttf */; };
+		F8FDCD8021BFB1F300B1171F /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8FDCD7D21BFB1F200B1171F /* Starjout.ttf */; };
+		F8FDCD8121BFB1F300B1171F /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8FDCD7E21BFB1F300B1171F /* Starjhol.ttf */; };
+		F8FDCD8821C0022C00B1171F /* BlackBGview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD8721C0022C00B1171F /* BlackBGview.swift */; };
+		F8FDCD8B21C0036A00B1171F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD8A21C0036A00B1171F /* Constants.swift */; };
+		F8FDCD8E21C24B2A00B1171F /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD8D21C24B2A00B1171F /* PersonApi.swift */; };
+		F8FDCD9021C25A2800B1171F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD8F21C25A2800B1171F /* Person.swift */; };
+		F8FDCDBC21D2790C00B1171F /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCDBB21D2790B00B1171F /* ButtonAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F886E1FA21D3B94200C61E39 /* HomeworldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldVC.swift; sourceTree = "<group>"; };
+		F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
+		F886E1FE21D3B96200C61E39 /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
+		F886E20021D3B98B00C61E39 /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
 		F8FDCD6121BFAF0000B1171F /* HaroldKnowsStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaroldKnowsStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FDCD6421BFAF0000B1171F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8FDCD6621BFAF0000B1171F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8FDCD6621BFAF0000B1171F /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
 		F8FDCD6921BFAF0000B1171F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8FDCD6B21BFAF0200B1171F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8FDCD6E21BFAF0200B1171F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8FDCD7021BFAF0200B1171F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FDCD7C21BFB1F200B1171F /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		F8FDCD7D21BFB1F200B1171F /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		F8FDCD7E21BFB1F300B1171F /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		F8FDCD8721C0022C00B1171F /* BlackBGview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBGview.swift; sourceTree = "<group>"; };
+		F8FDCD8A21C0036A00B1171F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F8FDCD8D21C24B2A00B1171F /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		F8FDCD8F21C25A2800B1171F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F8FDCDBB21D2790B00B1171F /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,82 @@
 		F8FDCD6321BFAF0000B1171F /* HaroldKnowsStarWars */ = {
 			isa = PBXGroup;
 			children = (
+				F8FDCD8521BFB25300B1171F /* Model */,
+				F8FDCD8621BFB25A00B1171F /* View */,
+				F8FDCD8421BFB24600B1171F /* Controller */,
+				F8FDCD8C21C24B0200B1171F /* Services */,
+				F8FDCD8321BFB23B00B1171F /* Resources */,
+				F8FDCD8921C0035800B1171F /* Utils */,
 				F8FDCD6421BFAF0000B1171F /* AppDelegate.swift */,
-				F8FDCD6621BFAF0000B1171F /* ViewController.swift */,
 				F8FDCD6821BFAF0000B1171F /* Main.storyboard */,
 				F8FDCD6B21BFAF0200B1171F /* Assets.xcassets */,
 				F8FDCD6D21BFAF0200B1171F /* LaunchScreen.storyboard */,
 				F8FDCD7021BFAF0200B1171F /* Info.plist */,
 			);
 			path = HaroldKnowsStarWars;
+			sourceTree = "<group>";
+		};
+		F8FDCD8221BFB21E00B1171F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDCD7C21BFB1F200B1171F /* Starjedi.ttf */,
+				F8FDCD7E21BFB1F300B1171F /* Starjhol.ttf */,
+				F8FDCD7D21BFB1F200B1171F /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F8FDCD8321BFB23B00B1171F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDCD8221BFB21E00B1171F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8FDCD8421BFB24600B1171F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDCD6621BFAF0000B1171F /* SelectPersonVC.swift */,
+				F886E1FA21D3B94200C61E39 /* HomeworldVC.swift */,
+				F886E20021D3B98B00C61E39 /* VehiclesVC.swift */,
+				F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */,
+				F886E1FE21D3B96200C61E39 /* FilmsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F8FDCD8521BFB25300B1171F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDCD8F21C25A2800B1171F /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8FDCD8621BFB25A00B1171F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDCD8721C0022C00B1171F /* BlackBGview.swift */,
+				F8FDCDBB21D2790B00B1171F /* ButtonAnimation.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8FDCD8921C0035800B1171F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDCD8A21C0036A00B1171F /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F8FDCD8C21C24B0200B1171F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F8FDCD8D21C24B2A00B1171F /* PersonApi.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FDCD6F21BFAF0200B1171F /* LaunchScreen.storyboard in Resources */,
+				F8FDCD8121BFB1F300B1171F /* Starjhol.ttf in Resources */,
 				F8FDCD6C21BFAF0200B1171F /* Assets.xcassets in Resources */,
+				F8FDCD7F21BFB1F300B1171F /* Starjedi.ttf in Resources */,
+				F8FDCD8021BFB1F300B1171F /* Starjout.ttf in Resources */,
 				F8FDCD6A21BFAF0000B1171F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8FDCD6721BFAF0000B1171F /* ViewController.swift in Sources */,
+				F886E1FF21D3B96200C61E39 /* FilmsVC.swift in Sources */,
+				F886E1FD21D3B95600C61E39 /* StarshipsVC.swift in Sources */,
+				F8FDCDBC21D2790C00B1171F /* ButtonAnimation.swift in Sources */,
+				F8FDCD9021C25A2800B1171F /* Person.swift in Sources */,
+				F8FDCD6721BFAF0000B1171F /* SelectPersonVC.swift in Sources */,
 				F8FDCD6521BFAF0000B1171F /* AppDelegate.swift in Sources */,
+				F8FDCD8821C0022C00B1171F /* BlackBGview.swift in Sources */,
+				F8FDCD8E21C24B2A00B1171F /* PersonApi.swift in Sources */,
+				F886E1FB21D3B94200C61E39 /* HomeworldVC.swift in Sources */,
+				F8FDCD8B21C0036A00B1171F /* Constants.swift in Sources */,
+				F886E20121D3B98B00C61E39 /* VehiclesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
