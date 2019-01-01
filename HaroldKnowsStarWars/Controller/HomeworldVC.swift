@@ -8,15 +8,32 @@
 
 import UIKit
 
-class HomeworldVC: UIViewController {
+class HomeworldVC: UIViewController, PersonProtocol {
     var passedPerson : Person!
-
+    var api = HomeworldApi()
+    
+    @IBOutlet weak var homeworldNameLbl: UILabel!
+    @IBOutlet weak var climateLbl: UILabel!
+    @IBOutlet weak var terrainLbl: UILabel!
+    @IBOutlet weak var populationLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(passedPerson.hair)
-
-        // Do any additional setup after loading the view.
+        api.getHomeworldInfo(url: passedPerson.homeWorldUrl) { (homeworld) in
+            if let homeworldLoaded = homeworld {
+                self.setupUi(homeworld: homeworldLoaded)
+            }
+        }
+        
     }
     
-
+    
+    func setupUi(homeworld: Homeworld) {
+        homeworldNameLbl.text = homeworld.homeworldName
+        climateLbl.text = homeworld.climate
+        terrainLbl.text = homeworld.terrain
+        populationLbl.text = homeworld.population
+    }
+    
 }

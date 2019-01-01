@@ -13,3 +13,5 @@ let BG_COLOUR = UIColor.black.withAlphaComponent(0.6).cgColor
 let URL_BASE = "https://swapi.co/api/"
 let URL_PERSON = URL_BASE + "people/"
 typealias PersonResponseCompletion = (Person?) -> Void
+typealias HomeworldResponseCompletion = (Homeworld?) -> Void
+

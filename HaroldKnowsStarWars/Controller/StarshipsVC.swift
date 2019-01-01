@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StarshipsVC: UIViewController {
+class StarshipsVC: UIViewController, PersonProtocol {
 
     var passedPerson: Person!
     

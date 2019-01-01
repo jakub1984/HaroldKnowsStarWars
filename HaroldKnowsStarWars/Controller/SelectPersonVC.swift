@@ -62,45 +62,51 @@ class SelectPersonVC: UIViewController {
         
         
     }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        switch segue.identifier {
-        case Segue.homeworld.rawValue:
-            if let destination = segue.destination as? HomeworldVC {
-                destination.passedPerson = personToPass
-            }
-        case Segue.vehicles.rawValue:
-            if let destination = segue.destination as? VehiclesVC {
-                destination.passedPerson = personToPass
-            }
-        case Segue.starships.rawValue:
-            if let destination = segue.destination as? StarshipsVC {
-                destination.passedPerson = personToPass
-            }
-        case Segue.films.rawValue:
-            if let destination = segue.destination as? FilmsVC {
-                destination.passedPerson = personToPass
-            }
-        default:
-            break
+        if var destination = segue.destination as? PersonProtocol {
+            destination.passedPerson = personToPass
         }
         
         
-       
+    }
+//    todo: try approach with "IF ELSE" statements
+
+//            SEGUE WITH SWITCH
+   
+//        switch segue.identifier {
+//        case Segue.homeworld.rawValue:
+//            if let destination = segue.destination as? HomeworldVC {
+//                destination.passedPerson = personToPass
+//            }
+//        case Segue.vehicles.rawValue:
+//            if let destination = segue.destination as? VehiclesVC {
+//                destination.passedPerson = personToPass
+//            }
+//        case Segue.starships.rawValue:
+//            if let destination = segue.destination as? StarshipsVC {
+//                destination.passedPerson = personToPass
+//            }
+//        case Segue.films.rawValue:
+//            if let destination = segue.destination as? FilmsVC {
+//                destination.passedPerson = personToPass
+//            }
+//        default:
+//            break
+//        }
+//    }
+//
+//
+//    enum Segue: String {
+//        case homeworld = "toHomeworld"
+//        case starships = "toStarships"
+//        case vehicles = "toVehicles"
+//        case films = "toFilms"
+//
+//    }
     
-}
-
-
-enum Segue: String {
-    case homeworld = "toHomeworld"
-    case starships = "toStarships"
-    case vehicles = "toVehicles"
-    case films = "toFilms"
     
-}
-
-
-
+    
+   
 
 }
 

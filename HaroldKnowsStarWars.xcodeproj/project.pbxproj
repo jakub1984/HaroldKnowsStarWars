@@ -11,6 +11,9 @@
 		F886E1FD21D3B95600C61E39 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */; };
 		F886E1FF21D3B96200C61E39 /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FE21D3B96200C61E39 /* FilmsVC.swift */; };
 		F886E20121D3B98B00C61E39 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20021D3B98B00C61E39 /* VehiclesVC.swift */; };
+		F886E20321D50CC700C61E39 /* PersonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20221D50CC700C61E39 /* PersonProtocol.swift */; };
+		F886E20521D51A4400C61E39 /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20421D51A4400C61E39 /* Homeworld.swift */; };
+		F886E20721DBA37200C61E39 /* HomeworldApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20621DBA37200C61E39 /* HomeworldApi.swift */; };
 		F8FDCD6521BFAF0000B1171F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD6421BFAF0000B1171F /* AppDelegate.swift */; };
 		F8FDCD6721BFAF0000B1171F /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FDCD6621BFAF0000B1171F /* SelectPersonVC.swift */; };
 		F8FDCD6A21BFAF0000B1171F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FDCD6821BFAF0000B1171F /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
 		F886E1FE21D3B96200C61E39 /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
 		F886E20021D3B98B00C61E39 /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		F886E20221D50CC700C61E39 /* PersonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProtocol.swift; sourceTree = "<group>"; };
+		F886E20421D51A4400C61E39 /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		F886E20621DBA37200C61E39 /* HomeworldApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldApi.swift; sourceTree = "<group>"; };
 		F8FDCD6121BFAF0000B1171F /* HaroldKnowsStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaroldKnowsStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FDCD6421BFAF0000B1171F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FDCD6621BFAF0000B1171F /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
@@ -127,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				F8FDCD8F21C25A2800B1171F /* Person.swift */,
+				F886E20221D50CC700C61E39 /* PersonProtocol.swift */,
+				F886E20421D51A4400C61E39 /* Homeworld.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				F8FDCD8D21C24B2A00B1171F /* PersonApi.swift */,
+				F886E20621DBA37200C61E39 /* HomeworldApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -230,7 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F886E20321D50CC700C61E39 /* PersonProtocol.swift in Sources */,
 				F886E1FF21D3B96200C61E39 /* FilmsVC.swift in Sources */,
+				F886E20721DBA37200C61E39 /* HomeworldApi.swift in Sources */,
 				F886E1FD21D3B95600C61E39 /* StarshipsVC.swift in Sources */,
 				F8FDCDBC21D2790C00B1171F /* ButtonAnimation.swift in Sources */,
 				F8FDCD9021C25A2800B1171F /* Person.swift in Sources */,
@@ -239,6 +250,7 @@
 				F8FDCD8821C0022C00B1171F /* BlackBGview.swift in Sources */,
 				F8FDCD8E21C24B2A00B1171F /* PersonApi.swift in Sources */,
 				F886E1FB21D3B94200C61E39 /* HomeworldVC.swift in Sources */,
+				F886E20521D51A4400C61E39 /* Homeworld.swift in Sources */,
 				F8FDCD8B21C0036A00B1171F /* Constants.swift in Sources */,
 				F886E20121D3B98B00C61E39 /* VehiclesVC.swift in Sources */,
 			);

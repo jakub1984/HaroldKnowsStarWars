@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FilmsVC: UIViewController {
+class FilmsVC: UIViewController, PersonProtocol {
    
     var passedPerson: Person!
     
