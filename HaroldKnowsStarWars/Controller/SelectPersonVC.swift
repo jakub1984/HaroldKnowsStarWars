@@ -18,7 +18,6 @@ class SelectPersonVC: UIViewController {
     @IBOutlet weak var genderLbl: UILabel!
     @IBOutlet weak var homeworldBtn: UIButton!
     @IBOutlet weak var vehicleBtn: UIButton!
-    @IBOutlet weak var starshipsBtn: UIButton!
     @IBOutlet weak var filmsBtn: UIButton!
     
     
@@ -34,7 +33,7 @@ class SelectPersonVC: UIViewController {
     }
     
     @IBAction func randomPressed(_ sender: Any) {
-        let randomId = Int.random(in: 1...20)
+        let randomId = Int.random(in: 1...1)
         
         personApi.getRandomPersonUrlSession(id: randomId) { (returnedPerson) in
             if let returnedPerson = returnedPerson {
@@ -55,7 +54,6 @@ class SelectPersonVC: UIViewController {
         
         homeworldBtn.isEnabled = !returnedPerson.homeWorldUrl.isEmpty
         vehicleBtn.isEnabled = !returnedPerson.vehicleUrls.isEmpty
-        starshipsBtn.isEnabled = !returnedPerson.starshipUrls.isEmpty
         filmsBtn.isEnabled = !returnedPerson.filmUrls.isEmpty
         
         
