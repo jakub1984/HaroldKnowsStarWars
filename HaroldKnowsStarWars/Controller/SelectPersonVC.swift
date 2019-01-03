@@ -19,6 +19,7 @@ class SelectPersonVC: UIViewController {
     @IBOutlet weak var homeworldBtn: UIButton!
     @IBOutlet weak var vehicleBtn: UIButton!
     
+    @IBOutlet weak var apiRequestLoading: UIActivityIndicatorView!
     
     
     var personApi = PersonApi()
@@ -34,8 +35,9 @@ class SelectPersonVC: UIViewController {
     
     @IBAction func randomPressed(_ sender: Any) {
         let randomId = Int.random(in: 1...10)
-        
+        apiRequestLoading.startAnimating()
         personApi.getRandomPersonUrlSession(id: randomId) { (returnedPerson) in
+            self.apiRequestLoading.stopAnimating()
             if let returnedPerson = returnedPerson {
                 self.setupView(returnedPerson: returnedPerson)
                 self.personToPass = returnedPerson

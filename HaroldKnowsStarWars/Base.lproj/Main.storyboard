@@ -225,14 +225,19 @@
                                     <constraint firstAttribute="trailing" secondItem="Imd-KO-0JX" secondAttribute="trailing" constant="30" id="vUw-62-LT7"/>
                                 </constraints>
                             </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="LBE-YK-PVi">
+                                <rect key="frame" x="169" y="551" width="37" height="37"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="df0-Tv-wLU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="09c-A9-unp"/>
+                            <constraint firstItem="LBE-YK-PVi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6km-yv-7fe"/>
                             <constraint firstItem="df0-Tv-wLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DxS-ZI-jbU"/>
                             <constraint firstItem="L5t-fC-JSF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KHq-Io-Vrd"/>
                             <constraint firstAttribute="trailing" secondItem="df0-Tv-wLU" secondAttribute="trailing" id="P65-29-3fF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d7e-fc-Dnq" secondAttribute="trailing" constant="20" id="Rb7-kq-nPN"/>
+                            <constraint firstItem="JfU-He-jsn" firstAttribute="top" secondItem="LBE-YK-PVi" secondAttribute="bottom" constant="15" id="S9S-uZ-N48"/>
                             <constraint firstItem="d7e-fc-Dnq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="T7k-bk-gx5"/>
                             <constraint firstItem="d7e-fc-Dnq" firstAttribute="top" secondItem="Pbu-qF-Wcc" secondAttribute="bottom" constant="20" id="VcK-IF-dBR"/>
                             <constraint firstItem="d7e-fc-Dnq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jLu-rD-Noc"/>
@@ -249,6 +254,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="WiZ-fc-5kz"/>
                     <connections>
+                        <outlet property="apiRequestLoading" destination="LBE-YK-PVi" id="iZ9-If-WtM"/>
                         <outlet property="birthYearLbl" destination="BTT-3f-Ro1" id="DfP-su-R7e"/>
                         <outlet property="genderLbl" destination="RU2-eH-v3A" id="EVo-lT-Jc7"/>
                         <outlet property="hairLbl" destination="M1W-Td-oG4" id="oZK-ch-TYQ"/>
