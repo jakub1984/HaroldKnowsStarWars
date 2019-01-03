@@ -18,7 +18,6 @@ class SelectPersonVC: UIViewController {
     @IBOutlet weak var genderLbl: UILabel!
     @IBOutlet weak var homeworldBtn: UIButton!
     @IBOutlet weak var vehicleBtn: UIButton!
-    @IBOutlet weak var filmsBtn: UIButton!
     
     
     
@@ -29,11 +28,12 @@ class SelectPersonVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        homeworldBtn.isEnabled = false
+        vehicleBtn.isEnabled = false
     }
     
     @IBAction func randomPressed(_ sender: Any) {
-        let randomId = Int.random(in: 1...1)
+        let randomId = Int.random(in: 1...10)
         
         personApi.getRandomPersonUrlSession(id: randomId) { (returnedPerson) in
             if let returnedPerson = returnedPerson {
@@ -54,7 +54,6 @@ class SelectPersonVC: UIViewController {
         
         homeworldBtn.isEnabled = !returnedPerson.homeWorldUrl.isEmpty
         vehicleBtn.isEnabled = !returnedPerson.vehicleUrls.isEmpty
-        filmsBtn.isEnabled = !returnedPerson.filmUrls.isEmpty
         
         
         
@@ -80,14 +79,7 @@ class SelectPersonVC: UIViewController {
 //            if let destination = segue.destination as? VehiclesVC {
 //                destination.passedPerson = personToPass
 //            }
-//        case Segue.starships.rawValue:
-//            if let destination = segue.destination as? StarshipsVC {
-//                destination.passedPerson = personToPass
-//            }
-//        case Segue.films.rawValue:
-//            if let destination = segue.destination as? FilmsVC {
-//                destination.passedPerson = personToPass
-//            }
+//
 //        default:
 //            break
 //        }
@@ -96,9 +88,7 @@ class SelectPersonVC: UIViewController {
 //
 //    enum Segue: String {
 //        case homeworld = "toHomeworld"
-//        case starships = "toStarships"
 //        case vehicles = "toVehicles"
-//        case films = "toFilms"
 //
 //    }
     

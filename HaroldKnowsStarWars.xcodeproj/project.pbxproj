@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F886E1FB21D3B94200C61E39 /* HomeworldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FA21D3B94200C61E39 /* HomeworldVC.swift */; };
-		F886E1FD21D3B95600C61E39 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */; };
-		F886E1FF21D3B96200C61E39 /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E1FE21D3B96200C61E39 /* FilmsVC.swift */; };
 		F886E20121D3B98B00C61E39 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20021D3B98B00C61E39 /* VehiclesVC.swift */; };
 		F886E20321D50CC700C61E39 /* PersonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20221D50CC700C61E39 /* PersonProtocol.swift */; };
 		F886E20521D51A4400C61E39 /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = F886E20421D51A4400C61E39 /* Homeworld.swift */; };
@@ -33,8 +31,6 @@
 
 /* Begin PBXFileReference section */
 		F886E1FA21D3B94200C61E39 /* HomeworldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldVC.swift; sourceTree = "<group>"; };
-		F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
-		F886E1FE21D3B96200C61E39 /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
 		F886E20021D3B98B00C61E39 /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
 		F886E20221D50CC700C61E39 /* PersonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProtocol.swift; sourceTree = "<group>"; };
 		F886E20421D51A4400C61E39 /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
@@ -127,8 +123,6 @@
 				F8FDCD6621BFAF0000B1171F /* SelectPersonVC.swift */,
 				F886E1FA21D3B94200C61E39 /* HomeworldVC.swift */,
 				F886E20021D3B98B00C61E39 /* VehiclesVC.swift */,
-				F886E1FC21D3B95600C61E39 /* StarshipsVC.swift */,
-				F886E1FE21D3B96200C61E39 /* FilmsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -247,9 +241,7 @@
 			files = (
 				F886E20321D50CC700C61E39 /* PersonProtocol.swift in Sources */,
 				F886E20921DCF28400C61E39 /* VehicleModel.swift in Sources */,
-				F886E1FF21D3B96200C61E39 /* FilmsVC.swift in Sources */,
 				F886E20721DBA37200C61E39 /* HomeworldApi.swift in Sources */,
-				F886E1FD21D3B95600C61E39 /* StarshipsVC.swift in Sources */,
 				F8FDCDBC21D2790C00B1171F /* ButtonAnimation.swift in Sources */,
 				F8FDCD9021C25A2800B1171F /* Person.swift in Sources */,
 				F8FDCD6721BFAF0000B1171F /* SelectPersonVC.swift in Sources */,
